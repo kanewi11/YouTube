@@ -14,7 +14,7 @@ class Settings:
     GRID_HEIGHT: int = SCREEN_HEIGHT // GRID_SIZE
     WHITE: Tuple[int, int, int] = (255, 255, 255)
     BLACK: Tuple[int, int, int] = (0, 0, 0)
-    FPS: int = 30
+    FPS: int = 60
     MOVE_DELAY: int = 50
     ROTATE_DELAY: int = 150
     BLOCK_COLORS: List[Tuple[int, int, int]] = [(253, 200, 0), (1, 158, 77), (249, 124, 30), (126, 192, 235)]
