@@ -148,12 +148,6 @@ class Tetris(Settings):
                 self.game_over = True
             elif event.type == pygame.KEYDOWN:
                 self.keys_held[event.key] = True
-                if event.key == pygame.K_p:
-                    pause = True
-                    while pause:
-                        for event in pygame.event.get():
-                            if event.type == pygame.KEYUP and event.key == pygame.K_p:
-                                pause = False
             elif event.type == pygame.KEYUP:
                 self.keys_held[event.key] = False
 
